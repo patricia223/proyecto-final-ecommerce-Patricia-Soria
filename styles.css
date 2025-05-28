@@ -1,0 +1,584 @@
+
+
+body {
+    background-color:#D3D3D3 ;
+    font-family: 'Montserrat', sans-serif;
+    height: 100%;
+    margin: 0%;
+    padding: 0%;
+}
+
+header {
+    position:sticky;
+    top:0%;
+    height: 150px;
+    background-color:#D3D3D3;
+    text-align: center;
+    padding: 2px;
+    font-size: 13px;
+  };
+
+.imglogo {
+    margin-bottom: 0;
+    padding: 0;
+    
+}
+h1{
+    font-family: "IBM Plex Serif", serif;
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+    color: #FF6F00;
+}
+
+.nav-list { list-style: none;
+    text-decoration: none;
+     flex-wrap: wrap;
+     display: flex;
+     justify-content: space-around;
+     
+}
+
+.header_link {
+text-decoration: none;
+color: #4B2E2B;
+}
+.navlist{
+    list-style: none;
+    flex-direction: column;
+    display: flex;
+
+}
+.pet-footer {
+  background-color: #f8f9fa;
+  padding: 10px ;
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin-top: 50px;
+}
+.footer-pet-p {
+  margin: 2px ;
+  color: #555;
+  font-size: 12px;
+}
+
+a{
+    margin:3px;
+}
+
+.social-icons-img {
+  width: 16px;
+  height: auto;
+}
+
+/*css para inicio*/
+
+.bienvenido{
+  font-family:"Satisfy", serif ;
+  color:#69053e;
+  font-size: 80px;
+  margin-left: 150px;
+  margin-top: 40px;
+  margin-bottom: 10px;
+}
+.p1 {
+  font-family:"Montserrat",serif;
+  font-size: 25px;
+  text-align: center;
+  margin-left: 150px;
+  margin-top: 5px;
+  color: #333;
+}
+ .img-banner {
+    width: 1000px;
+    height: 700px;
+    margin-left: 200px;
+    border-radius: 20px;
+  }
+
+
+/*css para nosotros*/
+
+.titulo-nosotros{
+  color: #69053e;
+  font-size: 40px;
+}
+.nosotros-grid {
+  display: grid;
+  grid-template-columns:repeat(auto-fit, minmax(250px, 1fr));
+  gap: 30px;
+  padding: 20px 40px;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.texto-nosotros {
+  font-size: 18px;
+  color: #555;
+  text-align: justify;
+}
+
+.visual-nosotros {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+}
+
+.visual-nosotros video{
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+.visual-nosotros img {
+  max-width: 100%;
+  border-radius: 10px;
+}
+/*css para PRODUCTOS*/
+
+
+.productos-contenedor{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap:wrap ;
+  align-items: stretch;
+  text-align: center;
+  color:#555;
+  box-shadow: #69053e;
+
+}
+.titulo-prod{
+  color: #69053e;
+  font-size: 32px;
+}
+
+.producto{
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 15px;
+  margin: 20px;
+  width: 250px;
+}
+.producto:hover {
+  transform: translateY(-6px); 
+}
+/**css para reseñas**/
+/* Sección Reseñas */
+
+.reseñas {
+  padding: 100px ;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.titulo-reseñas {
+  text-align: center;
+  font-size: 32px;
+  color: #69053e;
+  margin-bottom: 30px;
+}
+
+.reseñas-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  padding: 10px;
+}
+
+.card {
+  background-color: white;
+  padding: 20px;
+  border: 1px solid #ddd;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border-radius: 10px;
+  color: #555;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 12px rgba(0,0,0,0.15);
+}
+
+.card h3 {
+  color: #FF6F00;
+  margin-top: 0;
+}
+
+.card p {
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+
+/*css para Servicios*/
+.servicio-pet{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap:wrap ;
+  align-items: stretch;
+  text-align: center;
+  color: #444;
+}
+
+.titulo-servicio{
+  color: #69053e;
+  font-size: 32px;
+}
+
+.servicio{
+  background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+    width: 280px;
+}
+
+.servicio img {
+  border-radius: 10px;
+  width: 250px;
+  height: 200px;
+  margin-right: 50px;
+}
+
+/*css para formulario*/
+
+main {
+  display: flex;
+  justify-content: center;
+}
+
+form {
+  background-color: #ffffff;
+  padding: 20px ;
+  border: 5px;
+  width: 400px;
+  height: 380px;
+  margin-top: 30px;
+  border-radius: 10px;
+}
+
+h2 {
+  text-align: center;
+  color: #444;
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+
+.navlist {
+  list-style: none;
+  padding: 0;
+}
+
+.navlist li {
+  margin-bottom: 15px;
+}
+
+label {
+  margin-bottom: 6px;
+  color: #333;
+}
+
+.nombre{
+  width: 380px;
+  height: 15px;
+  padding: 8px ;
+  border: 1px solid #ccc;
+  font-size: 14px;
+  
+
+}
+.email{
+ width: 380px;
+  height: 15px;
+  padding: 8px ;
+  border: 1px solid #ccc;
+  font-size: 14px;
+}
+textarea {
+  
+  width: 380px;
+  height: 50px;
+  padding: 8px ;
+  border: 1px solid #ccc;
+  font-size: 14px;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: #B17850;
+  color: white;
+  border: none;
+  font-size: 16px;
+}
+
+/* Media para todas las pantallas*/
+/* Celulares (hasta 600px) le puse el valor de 380px porque con el otro no se podia adaptar bien al tamaño de la pag */ 
+@media (max-width: 380px) {
+
+  header {
+    height: auto;
+    padding: 10px;
+  }
+
+  .imglogo {
+    width: 14%;
+  }
+
+  .h1 {
+    font-size: 18px;
+  }
+
+  .nav-list {
+    flex-direction: column;
+    margin-right: 40px;
+  }
+
+  .bienvenido {
+    font-size: 36px;
+    margin: 10px;
+    text-align: center;
+  }
+
+  .img-banner {
+    width: 90%;
+    margin: auto;
+    display: block;
+    height: auto;
+  }
+
+  .p1 {
+    margin:10px;
+    padding: 10px;
+  }
+
+  .nosotros-contenido {
+    font-size: 16px;
+    margin: 10px;
+  }
+
+  .titulo-nosotros,
+  .titulo-prod,
+  .titulo-servicio {
+    font-size: 26px;
+    text-align: center;
+  }
+
+  .productos-contenedor,
+  .servicio-pet {
+    flex-direction: column;
+    align-items: center;
+  }
+ .servicio img {
+  width: 100%;
+  height: auto;
+  max-width: 360px; 
+}
+  .producto,
+  .servicio {
+    width: 90%;
+    margin: 10px;
+  }
+
+  .video {
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+  .reseñas {
+    padding: 20px 10px;
+  }
+
+  .titulo-reseñas {
+    font-size: 24px;
+    text-align: center;
+  }
+
+  .reseñas-grid {
+    grid-template-columns: 1fr;
+    gap: 15px;
+  }
+
+  .card {
+    padding: 15px;
+    font-size: 14px;
+  }
+}
+form {
+  padding: 30px;
+  margin: 0 auto;
+  width: 90%;
+}
+
+  h2 {
+    font-size: 18px;
+  }
+
+  button {
+    font-size: 14px;
+  }
+
+
+/* Tabletas (481px a 768px) */
+@media (max-width: 768px) {
+
+  .imglogo {
+    width: 10%;
+  }
+
+  .h1 {
+    font-size: 20px;
+  }
+
+  .nav-list {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+  }
+
+  .bienvenido {
+    font-size: 48px;
+    text-align: center;
+    margin: 20px;
+  }
+
+  .img-banner {
+    width: 90%;
+    height: auto;
+    display: block;
+    margin: auto;
+  }
+
+  .p1 {
+    font-size: 20px;
+    padding: 0 20px;
+    text-align: center;
+  }
+
+  .nosotros-contenido {
+    font-size: 18px;
+    margin: 20px;
+  }
+
+  .productos-contenedor,
+  .servicio-pet {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .producto,
+  .servicio {
+    width: 80%;
+    margin: 15px;
+  }
+  .visual-nosotros img{
+    width: 130px;
+    height: 130px;
+    margin-bottom: 40px;
+  }
+  .visual-nosotros video {
+    height:100px
+  }
+  .titulo-reseñas {
+    font-size: 28px;
+  }
+
+  .reseñas-grid {
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 18px;
+  }
+
+  .card {
+    padding: 18px;
+  }
+
+
+  form {
+    width: 80%;
+    height: auto;
+  }
+
+  .nombre, .email, textarea {
+    width: 100%;
+  }
+
+  button {
+    font-size: 15px;
+  }
+}
+
+
+/* Escritorio (769px en adelante) */
+@media (min-width: 769px) {
+
+  .imglogo {
+    width: 4%;
+  }
+
+  .h1 {
+    font-size: 24px;
+  }
+
+  .bienvenido {
+    font-size: 60px;
+    margin-left: 150px;
+  }
+
+  .img-banner {
+    width: 1000px;
+    height: 700px;
+    margin-left: 200px;
+  }
+
+  .p1 {
+    font-size: 25px;
+    margin-left: 150px;
+  }
+
+  .nosotros-contenido {
+    font-size: 20px;
+    margin-left: 40px;
+    margin-right: 60px;
+  }
+
+  .productos-contenedor,
+  .servicio-pet {
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .producto,
+  .servicio {
+    width: 250px;
+  }
+
+  .video {
+    flex-direction: row;
+    justify-content: space-around;
+  }
+ .reseñas {
+    padding: 40px 60px;
+  }
+
+  .titulo-reseñas {
+    font-size: 32px;
+  }
+
+  .reseñas-grid {
+    gap: 20px;
+  }
+
+  .card {
+    max-width: 100%;
+  }
+
+  form {
+    width: 400px;
+    height: 380px;
+  }
+
+  .nombre, .email, textarea {
+    width: 380px;
+  }
+}
