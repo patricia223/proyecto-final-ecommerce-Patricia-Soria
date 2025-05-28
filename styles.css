@@ -314,8 +314,8 @@ button {
 }
 
 /* Media para todas las pantallas*/
-/* Celulares (hasta 600px) le puse el valor de 380px porque con el otro no se podia adaptar bien al tamaño de la pag */ 
-@media (max-width: 380px) {
+/* Celulares (hasta 600px) puse esos valore porque con el otro no se podia adaptar bien al tamaño de la pag */ 
+@media (min-width: 381px) and (max-width: 480px)  {
 
   header {
     height: auto;
@@ -332,7 +332,9 @@ button {
 
   .nav-list {
     flex-direction: column;
-    margin-right: 40px;
+    align-items: center;
+    margin-right: 0; 
+    gap: 10px; 
   }
 
   .bienvenido {
@@ -349,8 +351,10 @@ button {
   }
 
   .p1 {
-    margin:10px;
+    margin: 10px auto;
     padding: 10px;
+    max-width: 90%;
+    text-align: center;
   }
 
   .nosotros-contenido {
@@ -418,6 +422,8 @@ form {
   button {
     font-size: 14px;
   }
+
+ 
 
 
 /* Tabletas (481px a 768px) */
